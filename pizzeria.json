@@ -1,0 +1,39 @@
+{
+  "name" : "Pizzeria",
+  "address" : "123 Main St",
+  "menu" : [ {
+    "name" : "Hawaiian",
+    "price" : 11.55,
+    "ingredients" : {
+      "Cheese" : 1.0,
+      "Pineapple" : 1.0
+    }
+  }, {
+    "name" : "Margherita",
+    "price" : 11.025,
+    "ingredients" : {
+      "Cheese" : 1.0,
+      "Tomato" : 0.5
+    }
+  }, {
+    "name" : "Pepperoni",
+    "price" : 12.600000000000001,
+    "ingredients" : {
+      "Cheese" : 1.0,
+      "Pepperoni" : 1.5
+    }
+  } ],
+  "ingredientStock" : {
+    "Cheese" : 5,
+    "Tomato" : 3
+  },
+  "clients" : [ {
+    "id" : "2",
+    "name" : "Alice Smith",
+    "email" : "alice@example.com"
+  }, {
+    "id" : "1",
+    "name" : "John Doe",
+    "email" : "john@example.com"
+  } ]
+}
